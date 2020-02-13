@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Activity.SongDetailsActivity">
+
+    <TextView
+        style="@style/DetailsItemText"
+        android:text="@string/song_detail"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/trackname"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/kind"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/wrapperType"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/artistname"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/artistid"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/collectionname"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/releasedate"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/trackcensoredname"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/country"
+        style="@style/DetailsItemText" />
+
+    <TextView
+        android:id="@+id/currency"
+        style="@style/DetailsItemText" />
+</LinearLayout>

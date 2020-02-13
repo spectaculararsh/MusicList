@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Music List</string>
+    <string name="song_detail">Song Details</string>
+</resources>
